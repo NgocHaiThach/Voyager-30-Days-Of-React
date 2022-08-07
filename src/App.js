@@ -1,23 +1,45 @@
 import logo from './logo.svg';
 import './App.css';
+import Ex1 from './components/Day3/Ex1';
+import Ex2 from './components/Day3/Ex2';
+import Ex3 from './components/Day3/Ex3';
+import Ex4 from './components/Day3/Ex4';
+import NumberGerator from './components/Day6/NumberGerator';
+import HexaDecimalColor from './components/Day6/HexaDecimalColor';
+import { ChartData } from './components/Day6/ChartData';
+import ClassComponent from './components/Day7/ClassComponent';
+import RandomCountry from './components/Day8/RandomCountry';
+import OnMouseEnter from './components/Day11/OnMouseEnter';
+import LifeCycle from './components/Day14/LifeCycle';
+import CatParadise from './components/Day18/CatParadise';
+import WordCountryData from './components/Day24/WordCountryData/WordCountryData';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Ex1/> */}
+      {/* <Ex2/> */}
+      {/* <Ex3/> */}
+      {/* <Ex4/> */}
+
+{/* 
+      <NumberGerator/>
+      <HexaDecimalColor/>
+      <ChartData/> */}
+
+
+      {/* <ClassComponent/> */}
+
+      {/* <RandomCountry/> */}
+
+      {/* <OnMouseEnter/> */}
+
+      {/* <LifeCycle/> */}
+
+      {/* <CatParadise/> */}
+
+      <WordCountryData/>
+
     </div>
   );
 }

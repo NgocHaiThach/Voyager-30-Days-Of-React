@@ -1,0 +1,76 @@
+.container-ex3 {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+.top__header-ex3 {
+    /* margin: 0px 0px 40px 0; */
+    padding: 20px 20px;
+    /* border-bottom: 1px solid #333; */
+    background: aqua;
+}
+
+.headere-ex3 {
+ float: left;
+}
+
+.imager_user-ex3 {
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.user-name-ex3{
+    margin-top: 15px;
+}
+
+.check-icon,
+.icon-time {
+    color: #a8ecf9;
+    margin-left: 8px;
+}
+
+.des-ex3 {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.title-ex3 {
+    font-weight: bold;
+} 
+
+.skill-item {
+    background-color: #7be5fa;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 0 4px;
+    color: white;
+}
+
+.time {
+    margin-top: 20px;
+}
+
+ .icon-time {
+    margin-right: 4px;
+ }
+
+ .btn-tonggle {
+    margin-top: 20px;
+    width: 250px;
+    background: #7be5fa;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    padding: 8px;
+    opacity: 0.65;
+ }
+
+ .btn-tonggle:hover {
+    opacity: 0.9;
+ }
+
