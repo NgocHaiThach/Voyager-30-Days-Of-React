@@ -1,0 +1,26 @@
+.header_country {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.title_country {
+    font-size: 4rem;
+    margin: 0.5rem auto;
+    letter-spacing: 0.25rem;
+    font-weight: 600;
+    color: orange;
+}
+
+.sub-title_country {
+    color: #555;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.length_country {
+    color: orange;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 20px;
+}

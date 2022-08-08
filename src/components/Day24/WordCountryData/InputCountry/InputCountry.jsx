@@ -1,4 +1,5 @@
 import React, { useRef, useState, } from 'react';
+import './InputCountry.css';
 
 export default function InputCountry({ handlesearchCountries }) {
 

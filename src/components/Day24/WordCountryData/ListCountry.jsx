@@ -1,6 +1,6 @@
 import React from 'react';
-import CountryItem from './CountryItem';
-import Loading from './Loading';
+import CountryItem from './CountryItem/CountryItem';
+import Loading from './Loading/Loading';
 
 export default function ListCountry({ listCountry, isLoading }) {
 

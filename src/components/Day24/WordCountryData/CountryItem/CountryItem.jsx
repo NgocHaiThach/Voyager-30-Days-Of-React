@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './CountryItem.css'
 
 export default function CountryItem({ item }) {
     const { name, capital, population, currencies, languages, flags } = item;
@@ -17,10 +18,10 @@ export default function CountryItem({ item }) {
                 <p>
                     <span>
                         Language:
-                    </span> {languages && Object.entries(item?.languages).map((l, i) => {
-                        const [short, full] = l;
+                    </span> {languages && Object.values(item?.languages).map((l, i) => {
+                        // console.log(Object.entries(item?.languages))
                         return (
-                            <span key={i}> {full}, </span>
+                            <span key={i}> {l}, </span>
                         )
                     })}
                 </p>

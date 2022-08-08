@@ -1,0 +1,38 @@
+.country-footer {
+    background: #f0f0f0;
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-weight: 300;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.country-footer-wrapper {
+    background: #f0f0f0;
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-weight: 300;
+    padding: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-family: var(--font-family-body);
+    font-weight: 300;
+}
+
+.scoll-top__btn {
+    position: absolute;
+    color: orange;
+    top: 80%;
+    right: 0;
+    margin:0 30px 0  0 ;
+    cursor: pointer;
+    font-size: 4rem;
+}

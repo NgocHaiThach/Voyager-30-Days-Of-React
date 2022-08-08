@@ -22,10 +22,10 @@ function App() {
       {/* <Ex3/> */}
       {/* <Ex4/> */}
 
-{/* 
-      <NumberGerator/>
-      <HexaDecimalColor/>
-      <ChartData/> */}
+
+      {/* <NumberGerator/>
+      <HexaDecimalColor/> */}
+      {/* <ChartData/> */}
 
 
       {/* <ClassComponent/> */}
