@@ -36,6 +36,11 @@
     padding: 1px 20px
 }
 
+.list__country {
+    display: flex;
+    justify-content: center;
+}
+
 .contries__wrapper {
     background: #f0f0f0;
   
