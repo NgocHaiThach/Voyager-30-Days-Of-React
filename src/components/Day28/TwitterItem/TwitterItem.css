@@ -1,0 +1,75 @@
+.twitter-post {
+    padding: 0 10px;
+    border: 1px solid #e6ecf0;
+}
+
+.twitter-post:hover {
+    transform: scale(1.01);
+}
+
+.post__info-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.post__icon-user {
+    font-size: 25px;
+    border: 2px solid #8796a2;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+    ;
+}
+
+.post__tag-name {
+    color: #8796a2;
+    font-size: 14px;
+}
+
+.post__text p {
+    margin: 8px;
+}
+
+.post__detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post__detail i {
+    margin: 10px;
+    color: #697a89;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.post__controls i {
+    color: #92d0f0;
+}
+
+.post__edit:hover {
+    color: #16a9f3;
+}
+
+.post__delete:hover {
+    color: rgb(181, 6, 6);
+}
+
+.post__comment:hover {
+    color: #16a9f3;
+}
+
+.post__heart:hover {
+    color: rgb(181, 6, 6);
+}
+
+.post__retweet:hover {
+    color: rgb(21, 113, 21)
+}
+
+.post__desciption small {
+    font-size: 16px !important;
+    font-weight: 400;
+}

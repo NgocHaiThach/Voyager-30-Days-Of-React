@@ -13,6 +13,8 @@ import OnMouseEnter from './components/Day11/OnMouseEnter';
 import LifeCycle from './components/Day14/LifeCycle';
 import CatParadise from './components/Day18/CatParadise';
 import WordCountryData from './components/Day24/WordCountryData/WordCountryData';
+import GenerateColor from './components/Day27/GenerateColor/GenerateColor';
+import TwitterTweets from './components/Day28/TwitterTweets';
 
 function App() {
   return (
@@ -38,7 +40,11 @@ function App() {
 
       {/* <CatParadise/> */}
 
-      <WordCountryData/>
+      {/* <WordCountryData/> */}
+
+      {/* <GenerateColor/> */}
+
+      <TwitterTweets/>
 
     </div>
   );

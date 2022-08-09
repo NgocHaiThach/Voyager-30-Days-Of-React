@@ -1,0 +1,22 @@
+.generate-color__header {
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-family: Aldrich;
+}
+
+.generate-color__header-title {
+
+    font-size: 60px;
+    margin: 20px 0px 0px;
+    font-weight: 500;
+}
+
+.generate-color__header-subtitle {
+    font-size: 40px;
+    margin: 0px 0px 30px;
+    font-weight: 300;
+    font-family: Roboto;
+}

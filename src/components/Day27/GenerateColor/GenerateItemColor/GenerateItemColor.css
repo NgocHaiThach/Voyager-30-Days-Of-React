@@ -1,0 +1,59 @@
+.generate-color__item {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    letter-spacing: 0.0625em;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-weight: 100;
+    background-color: rgb(155, 5, 78);
+    color: rgb(239, 239, 239);
+}
+
+.wrapper__generate-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 2vw;
+    max-height: 2vw;
+    min-height: 2vw;
+    border-radius: 100%;
+    background: rgba(74, 77, 251, .1);
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.wrapper__generate-color:hover::before {
+    content: "Copy";
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.wrapper__generate-color::before {
+    position: absolute;
+    display: inline-block;
+    min-width: 60px;
+    height: 25px;
+    top: -20px;
+    left: 60px;
+    right: 0;
+    color: #fff;
+    display: block;
+    background: rgba(70, 67, 67, .55);
+    font-weight: 500;
+    line-height: 25px;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+

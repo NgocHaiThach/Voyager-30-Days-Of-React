@@ -14,7 +14,7 @@
     /* align-items: center; */
 }
 
-button {
+.btn-random {
     position: relative;
     top: 50%;
     left: 35%;

@@ -1,0 +1,49 @@
+.generate-color__input {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.generate-color__form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+}
+
+.generate-color__form-group div {
+    width: 75% !important;
+}
+
+.generate-color__form-group input {
+    margin: 15px 0;
+    width: 48rem;
+    min-width: 250px;
+    outline: none;
+    font-size: 16px;
+    border: 1px #eadef5;
+    padding: 15px 20px;
+    border-radius: 10px;
+    line-height: inherit;
+    color: #4e5255;
+}
+
+.generate-color__button {
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: #595dff;
+    text-transform: uppercase;
+    outline: none;
+    margin: 30px 0;
+}
+
+/* .generate-color__form-group button {
+    
+} */

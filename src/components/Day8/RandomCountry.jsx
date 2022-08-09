@@ -25,7 +25,7 @@ export default function RandomCountry() {
                     <span><strong>Currency:</strong>  {country.currency}</span>
                 </div>
             </div>
-            <button onClick={randomCountry}>Random</button>
+            <button className='btn-random' onClick={randomCountry}>Random</button>
         </div >
     )
 }
