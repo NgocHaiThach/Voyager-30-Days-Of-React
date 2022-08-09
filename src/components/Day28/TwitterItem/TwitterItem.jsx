@@ -5,9 +5,8 @@ import './TwitterItem.css';
 export default function TwitterItem({ post }) {
 
     const { arrPost, handleDeletePost, handleUpdatePost } = useContext(TweetsContext);
-    const [isEdit, setIsEdit] = useState(post.edit);
+    const [isEdit, setIsEdit] = useState(false);
     const [textPost, setTextPost] = useState(post.content)
-    console.log(post.content)
 
     const onDelete = (id) => {
         handleDeletePost(id)
@@ -19,9 +18,7 @@ export default function TwitterItem({ post }) {
     }
     return (
         <div style={{ overflow: 'hidden' }}>
-            {/* {arrPost.map((post, index) => (
 
-            ))} */}
             {!isEdit ?
                 <div className='twitter-post'>
                     <div className="post__info-user">
@@ -52,7 +49,7 @@ export default function TwitterItem({ post }) {
                 <div className='twitter-post'>
                     <textarea onChange={(e) => setTextPost(e.target.value)} value={textPost} className='twiter-control_textarea ' />
                     <br />
-                    <button onClick={() => onEdit(post.id, post.content)} className='twitter__button'>Save</button>
+                    <button onClick={() => onEdit(post.id, textPost)} className='twitter__button'>Save</button>
                     <br />
                     <button onClick={() => setIsEdit(false)} className='twitter__button' style={{ backgroundColor: 'grey' }}>Cancle</button>
                 </div>}

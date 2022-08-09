@@ -2,6 +2,7 @@ import React, { createContext, useEffect, useState } from 'react';
 import './TwitterTweets.css';
 import ControlInput from './ControlInput/ControlInput'
 import TwitterListPost from './TwitterListPost/TwitterListPost';
+import TwitterItem from './TwitterItem/TwitterItem';
 
 export const TweetsContext = createContext();
 export default function TwitterTweets() {
@@ -53,7 +54,8 @@ export default function TwitterTweets() {
     const handleUpdatePost = (id, content) => {
         const newState = arrPost.map(obj => {
             if (obj.id === id) {
-                return { id: id, content: content, edit: false };
+                console.log(content)
+                return { id: id, content: content };
             }
             return obj;
         });
@@ -63,7 +65,8 @@ export default function TwitterTweets() {
         <div className='twiter-wrapper'>
             <TweetsContext.Provider value={{ arrPost, handleAddPost, handleDeletePost, handleUpdatePost }}>
                 <ControlInput />
-                <TwitterListPost />
+                <TwitterListPost arrPost={arrPost} />
+                {/* <TwitterItem /> */}
             </TweetsContext.Provider>
         </div>
     )
